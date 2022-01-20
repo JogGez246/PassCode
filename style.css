@@ -18,7 +18,7 @@ html, body {
     background-color: #00BFFF;
 }
 
-.container {
+.container1 {
     font-family: arial;
     font-size: 24px;
     margin: 0px;
@@ -30,6 +30,44 @@ html, body {
     justify-content: center;
     flex-direction: column;
     transition: opacity 1s ease-out;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.container2 {
+    font-family: arial;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    /* outline: dashed 1px black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: opacity 1s ease-out;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container3 {
+    font-family: arial;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    /* outline: dashed 1px black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: opacity 1s ease-out;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .container_row{
@@ -40,6 +78,7 @@ html, body {
     padding: 0px;
     width: 100%;
     height: 50%;
+    /* justify-content: center; */
     /* outline: dashed 1px black; */
 }
 
@@ -60,12 +99,6 @@ html, body {
 
 }
 
-.layer2, .layer3 {
-    /* display: none; */
-    opacity: 0;
-    visibility: hidden;
-}
-
 
 
 .transparent {
@@ -81,6 +114,7 @@ html, body {
 }
 
 p {
+    /* width: 80%; */
     font-family: verdana;
     font-size: xx-large;
     text-align: center;
@@ -90,9 +124,9 @@ p {
 
 input {
     /* width: 80%; */
-    height: 40px;
-    padding: 10px;
-    margin: 10px 100px 10px 100px;
+    height: 50px;
+    /* padding: 10px; */
+    margin: 10px 5% 10px 5%;
     /* max-width: 80%; */
     font-family: verdana;
     font-size: xx-large;
@@ -106,7 +140,7 @@ button {
     /* width: 200px; */
     font-size: x-large;
     height: 100px;
-    margin: 10px 100px 10px 100px !important;
+    margin: 10px 15% 10px 15% !important;
     align-items: center;
     justify-content: center;
     margin: 0 100px;

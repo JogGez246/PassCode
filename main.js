@@ -1,6 +1,6 @@
-const layer1 = document.querySelector('.layer1');
-const layer2 = document.querySelector('.layer2');
-const layer3 = document.querySelector('.layer3');
+const layer1 = document.querySelector('.container1');
+const layer2 = document.querySelector('.container2');
+const layer3 = document.querySelector('.container3');
 
 function myFunction() {
 
