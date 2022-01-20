@@ -6,14 +6,28 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+    <!-- <script src='main.js'></script> -->
 </head>
 <body>
-    <div class="container">
-        <p>Enter PassCode: </p>
-        <input type="text" id="lname" name="lname">
-        <button>Enter</button>
-    </div>
+    <div id="container" class="container">
+        <div class="container_row">
+            <div class="layer1">
+                <p id="text">Enter Code: </p>
+                <input type="text" id="lname" name="lname">
+                <button id="enter" onclick="myFunction()">Enter</button>
+            </div>
+            <div class="layer2">
+                <p id="text">Code Accepted</p>
+            </div>
+            <div class="layer3">
+                <p id="text">Code Denied</p>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
 
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
