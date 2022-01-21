@@ -24,7 +24,7 @@ function reset() {
     layer2.classList.remove("visible");
     layer3.classList.remove("visible");
     layer1.classList.remove("transparent");
-    document.body.classList.add("color-transition-blue");
+    document.body.classList.remove("color-transition-blue");
     document.body.classList.remove("color-transition-red");
     document.body.classList.remove("color-transition-green");
 }
