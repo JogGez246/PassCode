@@ -8,7 +8,7 @@ function myFunction() {
     // alert("Hello WOrld");
 
 
-    if (document.getElementById("lname").value == "1") {
+    if (document.getElementById("lname").value == "5647382910") {
         document.body.classList.add("color-transition-green");
         layer2.classList.add("visible");
     } else {
